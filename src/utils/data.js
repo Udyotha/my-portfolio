@@ -119,7 +119,7 @@ export const PROJECTS = [
         description: "A personal portfolio website built with React and Tailwind CSS.",
         image: PROJECT_IMG_3,
         tags: ["React", "Tailwind", "Framer Motion"],
-        liveUrl: "#",
+        liveUrl: "https://udyotha.github.io/my-portfolio/",
         githubUrl: "https://github.com/Udyotha/my-portfolio",
         featured: false,
         category: "Frontend"
@@ -132,7 +132,7 @@ export const JOURNEY_STEPS = [
         year: "2018",
         title: "BSc(Hons) in Information Technology",
         company: "General Sir John Kotelawala Defence University",
-        description : "This Program includes modules that covers the main subject areas in IT and two software projects.The two software projects I did were Inventory System for a Construction Company Advertisement and Price prediction System for Sri Lanka",
+        description : "This program included modules covering the core areas of IT along with two software projects. The projects I completed are an Inventory System for a Construction Company and an Advertisement and Price Prediction System for Sri Lanka",
         icon: GraduationCap,
         color: "bg-blue-500"
     },
@@ -140,7 +140,7 @@ export const JOURNEY_STEPS = [
         year: "2021",
         title: "Software Engineer Intern",
         company: "Zebra Technologies",
-        description : "Mobile Application Development with Java and Firebase using Android Studio",
+        description : "I developed mobile applications using Java and Firebase within Android Studio. During this time, I gained valuable experience in software engineering best practices and agile team methodologies commonly used in the industry",
         icon: Code2,
         color: "bg-green-500"
     },
@@ -148,7 +148,7 @@ export const JOURNEY_STEPS = [
         year: "2022",
         title: "Quality Assuarance Engineer",
         company: "GTN Technologies",
-        description : "Test Automation Using Playwright",
+        description : "My role at web technologies team involved maintaining the quality of the Trading Application by discovering bugs, confirming feature implementations, and creating automated tests using Playwrigh",
         icon: Briefcase,
         color: "bg-purple-500"
     },
@@ -156,7 +156,7 @@ export const JOURNEY_STEPS = [
         year: "2023",
         title: "Associate Software Engineer",
         company: "GTN Technologies",
-        description : "Web Development using Angular, React, JavaScript, node, GraphQL, Prisma",
+        description : "In this role, I began full-stack development using React and Node.js, working primarily with TypeScript and JavaScript. On the frontend, in addition to JavaScript and TypeScript, I utilized JSX, Bootstrap, and CSS to build intuitive user interfaces. For the backend, besides JS and TS, I worked with Prisma and GraphQL. I managed databases using PostgreSQL. During my time as an Associate Software Engineer, I fixed over 50 bugs, added more than 5 new features, and enhanced existing functionalities",
         icon: Briefcase,
         color: "bg-orange-500"
     },
@@ -164,7 +164,7 @@ export const JOURNEY_STEPS = [
         year: "2024",
         title: "Software Engineer",
         company: "GTN Technologies",
-        description : "Web Development using Angular, React, JavaScript, node, GraphQL, Prisma",
+        description : "In this role, I continued to fulfill the responsibilities of an Associate Software Engineer while expanding my skills in DevOps. I deployed services using GitLab CI/CD pipelines and created and managed AWS infrastructure with Terraform. Additionally, I mentored junior developers and conducted code reviews to uphold software engineering best practices and enhance codebase performance.During my time as a Software Engineer, I fixed over 100 bugs, implemented more than 7 new features, deployed 10+ services following DevOps practices, and built the infrastructure for 5+ services.",
         icon: Briefcase,
         color: "bg-cyan-500"
     },
