@@ -74,13 +74,18 @@ export const SKILLS_CATEGORY = [
 
 export const TECH_STACK = [
     "JavaScript",
-    "HTML5",
-    "CSS3",
-    "Webpack",
-    "Vite",
+    "TypeScript",
+    "React.js",
+    "Node.js", 
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "PostgreSQL",
     "Jest",
+    "GraphQL",
+    "Python",
     "Playwright",
-    "Figma"
+    
 ];
 
 export const STATS = [
