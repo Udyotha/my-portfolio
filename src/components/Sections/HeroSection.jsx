@@ -11,7 +11,7 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { useTheme } from "../../context/ThemeContext";
 
 
-import PROFILE_PIC from '../../assets/images/profile-img.png'
+import PROFILE_PIC from '../../assets/images/profile-img.jpeg'
 import { containerVariants, itemVariants } from "../../utils/helper";
 
 const HeroSection = () => {
