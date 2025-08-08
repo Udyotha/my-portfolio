@@ -30,7 +30,7 @@ const Navbar = () => {
           className="flex items-center space-x-2"
         >
           <Code2 size={24} className="text-blue-500" />{" "}
-          <span className="text-lg ml-1">Udyotha Sankalpana1</span>
+          <span className="text-lg ml-1">Udyotha Sankalpana</span>
         </motion.div>
 
         {/* Desktop Navigation */}

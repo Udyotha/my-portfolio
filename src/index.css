@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Love+Light&family=Monsieur+La+Doulaise&family=Mrs+Saint+Delafield&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
     --font-display: 'Urbanist', sans-serif;
+    --font-signature: 'Monsieur La Doulaise', cursive;
 }
 
 @layer base {

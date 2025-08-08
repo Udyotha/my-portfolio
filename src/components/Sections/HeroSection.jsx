@@ -156,7 +156,7 @@ const HeroSection = () => {
                 </span>
                 <br />
                 <span className={isDarkMode ? "text-white" : "text-gray-900"}>
-                  that matter
+                  with passion
                 </span>
               </motion.h1>
 
@@ -166,8 +166,8 @@ const HeroSection = () => {
                   isDarkMode ? "text-gray-400" : "text-gray-600"
                 } mb-8 max-w-xl mx-auto font-light leading-relaxed`}
               >
-                I craft beautiful, functional web applications with modern
-                technologies and thoughtful user experiences.
+                I create elegant, high-performing web applications powered by 
+                modern technologies and refined user experiences
               </motion.p>
 
               {/* CTA Buttons - Mobile */}
@@ -260,7 +260,7 @@ const HeroSection = () => {
                 <span
                   className={isDarkMode ? "text-gray-600" : "text-gray-500"}
                 >
-                  MongoDB
+                  PostgreSQL
                 </span>
               </motion.div>
             </motion.div>
@@ -297,7 +297,7 @@ const HeroSection = () => {
                 <span className="text-blue-500 font-medium">experiences</span>
                 <br />
                 <span className={isDarkMode ? "text-white" : "text-gray-900"}>
-                  that matter
+                  with passion
                 </span>
               </motion.h1>
 
@@ -307,8 +307,8 @@ const HeroSection = () => {
                   isDarkMode ? "text-gray-400" : "text-gray-600"
                 } mb-12 font-light leading-relaxed max-w-lg`}
               >
-                I craft beautiful, functional web applications with modern
-                technologies and thoughtful user experiences.
+                I create elegant, high-performing web applications powered by 
+                modern technologies and refined user experiences
               </motion.p>
 
               {/* CTA Buttons - Desktop */}
@@ -407,7 +407,7 @@ const HeroSection = () => {
                   <span
                     className={isDarkMode ? "text-gray-600" : "text-gray-500"}
                   >
-                    MongoDB
+                    PostgreSQL
                   </span>
                 </motion.div>
 
