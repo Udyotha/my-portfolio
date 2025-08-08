@@ -290,7 +290,7 @@ const ContactSection = () => {
           variants={containerVariants}
           className="text-center mt-20"
         >
-          <motion.div
+          {/* <motion.div
             variants={itemVariants}
             className={`max-w-2xl mx-auto p-8 rounded-2xl border ${
               isDarkMode
@@ -318,7 +318,7 @@ const ContactSection = () => {
             >
               Schedule a Call
             </motion.button>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
         
       </div>
