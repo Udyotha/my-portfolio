@@ -22,6 +22,7 @@ import PROJECT_IMG_1 from "../assets/images/project-1.png";
 import PROJECT_IMG_2 from "../assets/images/project-2.png";
 import PROJECT_IMG_3 from "../assets/images/project-3.png";
 import PROJECT_IMG_4 from "../assets/images/project-4.jpg";
+import PROJECT_IMG_5 from "../assets/images/project-5.png";
 
 export const SKILLS_CATEGORY = [
     {
@@ -83,14 +84,15 @@ export const TECH_STACK = [
     "PostgreSQL",
     "Jest",
     "GraphQL",
+    "CI/CD",
     "Python",
     "Playwright",
     
 ];
 
 export const STATS = [
-    { number: "3", label: "Personal Projects Completed"},
-    { number: "2+", label: "Years Experience"},
+    { number: "4", label: "Personal Projects Completed"},
+    { number: "3+", label: "Years of Experience"},
     { number: "10+", label: "Technologies"},
     { number: "100%", label: "Stakeholder satisfaction"},
 ];
@@ -98,6 +100,17 @@ export const STATS = [
 export const PROJECTS = [
     {
         id: 1,
+        title: "AI Expense Tracker",
+        description: "A full stack web application that allows users to track their expenses and get AI insights and reccoemendations regarding their spending habits. Frontend is created with Vite and NodeJS is used for backend",
+        image:PROJECT_IMG_5,
+        tags: ["JavaScript", "Vite", "NodeJS", "CSS", "PostgreSQL"],
+        liveUrl: "https://ai-expense-tracker-one-swart.vercel.app",
+        githubUrl: "https://github.com/Udyotha/ai-expense-tracker",
+        featured: false,
+        category: "Full Stack"
+    },
+    {
+        id: 2,
         title: "Car advertisement and price prediction system for sri lanka",
         description: "A web application that allows users to view and post car advertisements, with a machine learning model to predict car prices based on various features.",
         image:PROJECT_IMG_1,
@@ -108,7 +121,7 @@ export const PROJECTS = [
         category: "Full Stack"
     },
     {
-        id: 2,
+        id: 3,
         title: "Inventory management system for LTL transformers",
         description: "A java application for managing inventory and tracking shipments for a transformer company",
         image: PROJECT_IMG_2,
@@ -119,7 +132,7 @@ export const PROJECTS = [
         category: "Desktop Application"
     },
     {
-        id: 3,
+        id: 4,
         title: "Portfolio Website",
         description: "A personal portfolio website built with React and Tailwind CSS.",
         image: PROJECT_IMG_3,
@@ -161,7 +174,7 @@ export const JOURNEY_STEPS = [
         year: "2023",
         title: "Associate Software Engineer",
         company: "GTN Technologies",
-        description : "In this role, I began full-stack development using React and Node.js, working primarily with TypeScript and JavaScript. On the frontend, in addition to JavaScript and TypeScript, I utilized JSX, Bootstrap, and CSS to build intuitive user interfaces. For the backend, besides JS and TS, I worked with Prisma and GraphQL. I managed databases using PostgreSQL. During my time as an Associate Software Engineer, I fixed over 50 bugs, added more than 5 new features, and enhanced existing functionalities",
+        description : "In this role, I began full-stack development using React and Node.js, working primarily with TypeScript and JavaScript. On the frontend, in addition to JavaScript and TypeScript, I utilized JSX, Bootstrap, and CSS to build intuitive user interfaces. For the backend, besides JS and TS, I worked with Prisma and GraphQL. I managed databases using PostgreSQL. During my time as an Associate Software Engineer, I fixed over 500 bugs, added more than 5 new features, and enhanced existing functionalities",
         icon: Briefcase,
         color: "bg-orange-500"
     },
@@ -169,7 +182,15 @@ export const JOURNEY_STEPS = [
         year: "2024",
         title: "Software Engineer",
         company: "GTN Technologies",
-        description : "In this role, I continued to fulfill the responsibilities of an Associate Software Engineer while expanding my skills in DevOps. I deployed services using GitLab CI/CD pipelines and created and managed AWS infrastructure with Terraform. Additionally, I mentored junior developers and conducted code reviews to uphold software engineering best practices and enhance codebase performance.During my time as a Software Engineer, I fixed over 100 bugs, implemented more than 7 new features, deployed 10+ services following DevOps practices, and built the infrastructure for 5+ services.",
+        description : "In this role, I continued to fulfill the responsibilities of an Associate Software Engineer while expanding my skills in DevOps. I deployed services using GitLab CI/CD pipelines and created and managed AWS infrastructure with Terraform. Additionally, I mentored junior developers and conducted code reviews to uphold software engineering best practices and enhance codebase performance.During my time as a Software Engineer, I fixed over 1000 bugs, implemented more than 7 new features, deployed 10+ services following DevOps practices, and built the infrastructure for 5+ services.",
+        icon: Briefcase,
+        color: "bg-cyan-500"
+    },
+    {
+        year: "2025",
+        title: "Software Engineer",
+        company: "Calexa Innovation",
+        description : "In this role, I built a complete web application dashboard for a soccer park. I also developed a Flask based API for connection between a physical camera and the web application. I used Python and Machine Learning to develop an advanced pipeline to stitch video feeds coming from multiple static cameras and display as one smooth video feed to give the immersion that the video is coming from a moving camera on the soccer field.",
         icon: Briefcase,
         color: "bg-cyan-500"
     },
