@@ -104,7 +104,7 @@ export const PROJECTS = [
         description: "A full stack web application that allows users to track their expenses and get AI insights and reccoemendations regarding their spending habits. Frontend is created with Vite and NodeJS is used for backend",
         image:PROJECT_IMG_5,
         tags: ["JavaScript", "Vite", "NodeJS", "CSS", "PostgreSQL"],
-        liveUrl: "https://ai-expense-tracker-one-swart.vercel.app",
+        liveUrl: "https://udyotha.github.io/ai-expense-tracker",
         githubUrl: "https://github.com/Udyotha/ai-expense-tracker",
         featured: false,
         category: "Full Stack"
